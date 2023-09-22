@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/contactform.php';
+      action = 'contactform/https://docs.google.com/forms/u/1/d/e/1FAIpQLSd1HEkAFhY8oxDfqs_NsVKU3i08uFLwBmv5W8LdXmy6PgXBvg/formResponse';
     }
     $.ajax({
       type: "POST",
@@ -116,3 +116,5 @@ jQuery(document).ready(function($) {
   });
 
 });
+
+
